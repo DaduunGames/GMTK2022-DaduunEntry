@@ -435,9 +435,12 @@ MonoBehaviour:
   mainCamera: {fileID: 0}
   shotPos: {fileID: 5854561255289383356}
   projectile:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 5731938451017686928, guid: b09ac97f163667743a3badb0e07123c7, type: 3}
+  - {fileID: 5731938451017686928, guid: b09ac97f163667743a3badb0e07123c7, type: 3}
+  - {fileID: 5731938451017686928, guid: b09ac97f163667743a3badb0e07123c7, type: 3}
+  - {fileID: 5731938451017686928, guid: b09ac97f163667743a3badb0e07123c7, type: 3}
+  - {fileID: 5731938451017686928, guid: b09ac97f163667743a3badb0e07123c7, type: 3}
+  - {fileID: 5731938451017686928, guid: b09ac97f163667743a3badb0e07123c7, type: 3}
   maxSpeed: 10
   moveLimiter: 0.7
 --- !u!212 &2842332017337510285

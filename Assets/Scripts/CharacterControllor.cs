@@ -109,5 +109,7 @@ public class CharacterControllor : MonoBehaviour
         {
             Instantiate(projectile[value - 1], shotPos.transform.position, shotPos.transform.rotation);
         }
+
+        BulletSelection.instance.Shotbullet();
     }
 }

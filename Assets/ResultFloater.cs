@@ -17,7 +17,6 @@ public class ResultFloater : MonoBehaviour
     public float AcceptableError = 1;
     public float FloatSpeed = 1;
     private bool Showing = true;
-    private BulletSelection bs;
 
     private void Start()
     {
@@ -25,7 +24,6 @@ public class ResultFloater : MonoBehaviour
         ScreenCenter = new Vector2(Screen.width / 2, Screen.height / 2);
         CornerLocation = FindObjectOfType<FloaterDestination>().transform.position;
         transform.localScale = Vector3.zero;
-        bs = FindObjectOfType<BulletSelection>();
     }
 
     private void FixedUpdate()
@@ -70,7 +68,7 @@ public class ResultFloater : MonoBehaviour
             }
             else
             {
-                bs.ReloadBullet(StoredValue);
+                BulletSelection.instance.ReloadBullet(StoredValue);
                 Showing = false;
             }
         }

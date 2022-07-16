@@ -97,4 +97,4 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 69180c44c38c52a448146b7a3ebf3faf, type: 3}
   - {fileID: 21300000, guid: b3c635b5460c1074db23663b737846f1, type: 3}
   AcceptableError: 10
-  FloatSpeed: 3
+  FloatSpeed: 5

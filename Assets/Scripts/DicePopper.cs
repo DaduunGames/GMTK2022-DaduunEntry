@@ -16,8 +16,6 @@ public class DicePopper : MonoBehaviour
 
     public float Rotation = 0;
 
-    public BulletSelection bSelect;
-
     private bool firstReloadDone = false;
 
     public GameObject DiceFloaterPrefab;
@@ -31,11 +29,6 @@ public class DicePopper : MonoBehaviour
     private void Update()
     {
         Die.transform.Rotate(new Vector3(0, 0, 1), Rotation * Time.deltaTime * 10);
-
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            bSelect.Shotbullet();
-        }
 
         if (Input.GetKeyDown(KeyCode.R))
         {
@@ -64,7 +57,7 @@ public class DicePopper : MonoBehaviour
         {
             anim.SetTrigger("StartPop");
         }
-        bSelect.ReloadPrompt.SetActive(false);
+        BulletSelection.instance.ReloadPrompt.SetActive(false);
 
     }
 
