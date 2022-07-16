@@ -9,7 +9,6 @@ public class CharacterControllor : MonoBehaviour
 
     // player values
     [Header("Player values")]
-    public int health;
     public Camera mainCamera;
     public GameObject shotPos;
     public GameObject projectile;
@@ -67,7 +66,7 @@ public class CharacterControllor : MonoBehaviour
             // BANG!
             if (Input.GetMouseButtonDown(0))
             {
-                Instantiate(projectile, transform.position, transform.rotation);
+                Instantiate(projectile, shotPos.transform.position, shotPos.transform.rotation);
             }
         }
 
