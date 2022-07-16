@@ -13,9 +13,16 @@ public class DicePopper : MonoBehaviour
     public Sprite IcoDieEvens;
 
     private Animator anim;
+
+    public float Rotation = 0;
     private void Start()
     {
         anim = GetComponent<Animator>();
+    }
+
+    private void Update()
+    {
+        Die.transform.Rotate(new Vector3(0, 0, 1), Rotation * Time.deltaTime * 10);
     }
 
     public void PressDown()
@@ -24,8 +31,8 @@ public class DicePopper : MonoBehaviour
         {
             anim.SetTrigger("Down");
         }
-       
-        
+
+
     }
 
     public void StartPop()
@@ -35,19 +42,24 @@ public class DicePopper : MonoBehaviour
         {
             anim.SetTrigger("StartPop");
         }
-        
+
     }
 
     public void FinishPop()
     {
+        Debug.Log("finished pop");
+
+
         IsPopping = false;
-        DiceValue = Random.Range(1,7);
+        DiceValue = Random.Range(1, 7);
+
         switch (DiceValue)
         {
             default:
             case 1:
                 Die.sprite = IcoDieOdds;
                 Die.transform.rotation = Quaternion.Euler(0, 0, 240);
+                
                 break;
             case 2:
                 Die.sprite = IcoDieEvens;
@@ -70,5 +82,8 @@ public class DicePopper : MonoBehaviour
                 Die.transform.rotation = Quaternion.Euler(0, 0, 120);
                 break;
         }
+
+
+        FindObjectOfType<BulletSelection>().SelectNewBullet(DiceValue);
     }
 }
