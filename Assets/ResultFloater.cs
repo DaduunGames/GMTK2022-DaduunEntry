@@ -16,17 +16,40 @@ public class ResultFloater : MonoBehaviour
 
     public float AcceptableError = 1;
     public float FloatSpeed = 1;
+    private bool Showing = true;
+    private BulletSelection bs;
 
     private void Start()
     {
         image = GetComponent<Image>();
         ScreenCenter = new Vector2(Screen.width / 2, Screen.height / 2);
         CornerLocation = FindObjectOfType<FloaterDestination>().transform.position;
+        transform.localScale = Vector3.zero;
+        bs = FindObjectOfType<BulletSelection>();
     }
 
     private void FixedUpdate()
     {
         image.sprite = numbers[StoredValue - 1];
+
+        if (Showing)
+        {
+            if (transform.localScale.x < 1)
+            {
+                transform.localScale += Vector3.one * Time.deltaTime * 2;
+            }
+        }
+        else
+        {
+            if (transform.localScale.x > 0)
+            {
+                transform.localScale -= Vector3.one * Time.deltaTime * 5;
+            }
+            else
+            {
+                Destroy(gameObject);
+            }
+        }
 
         if (DoneDisplaying == false)
         {
@@ -44,6 +67,11 @@ public class ResultFloater : MonoBehaviour
             if (Vector2.Distance(transform.position, CornerLocation) > AcceptableError)
             {
                 HeadTowards(CornerLocation, FloatSpeed);
+            }
+            else
+            {
+                bs.ReloadBullet(StoredValue);
+                Showing = false;
             }
         }
     }
