@@ -88,3 +88,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa7a9b0187ef2a5478247f6d26fd72c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  StoredValue: 1
+  numbers:
+  - {fileID: 21300000, guid: 035276aea910f6046b48090960982e9b, type: 3}
+  - {fileID: 21300000, guid: 06d692b453ddba143a28800039be2d15, type: 3}
+  - {fileID: 21300000, guid: f062c47d4e16b6b44ac240a762178c74, type: 3}
+  - {fileID: 21300000, guid: e0082a07db9bc5044b389f7d552d6cff, type: 3}
+  - {fileID: 21300000, guid: 69180c44c38c52a448146b7a3ebf3faf, type: 3}
+  - {fileID: 21300000, guid: b3c635b5460c1074db23663b737846f1, type: 3}
+  AcceptableError: 10
+  FloatSpeed: 2

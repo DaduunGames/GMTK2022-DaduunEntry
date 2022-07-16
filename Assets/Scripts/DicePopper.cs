@@ -15,6 +15,14 @@ public class DicePopper : MonoBehaviour
     private Animator anim;
 
     public float Rotation = 0;
+
+    public BulletSelection bSelect;
+
+    private bool firstReloadDone = false;
+
+    public GameObject DiceFloaterPrefab;
+    public Transform MainCanvas;
+
     private void Start()
     {
         anim = GetComponent<Animator>();
@@ -23,6 +31,20 @@ public class DicePopper : MonoBehaviour
     private void Update()
     {
         Die.transform.Rotate(new Vector3(0, 0, 1), Rotation * Time.deltaTime * 10);
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            bSelect.Shotbullet();
+        }
+
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            PressDown();
+        }
+        if (Input.GetKeyUp(KeyCode.R))
+        {
+            StartPop();
+        }
     }
 
     public void PressDown()
@@ -42,6 +64,7 @@ public class DicePopper : MonoBehaviour
         {
             anim.SetTrigger("StartPop");
         }
+        bSelect.ReloadPrompt.SetActive(false);
 
     }
 
@@ -83,7 +106,16 @@ public class DicePopper : MonoBehaviour
                 break;
         }
 
-
-        FindObjectOfType<BulletSelection>().SelectNewBullet(DiceValue);
+        if (firstReloadDone)
+        {
+            //bSelect.ReloadBullet(DiceValue);
+            ResultFloater floater = Instantiate(DiceFloaterPrefab, Die.transform.position, Quaternion.identity, MainCanvas).GetComponent<ResultFloater>();
+            floater.init(DiceValue);
+        }
+        else
+        {
+            firstReloadDone = true;
+        }
+       
     }
 }
