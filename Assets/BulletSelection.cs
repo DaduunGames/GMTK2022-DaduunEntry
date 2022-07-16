@@ -6,6 +6,8 @@ using TMPro;
 
 public class BulletSelection : MonoBehaviour
 {
+    public static BulletSelection instance;
+
     public int DiceValue = 0;
 
     public Image[] Panels;
@@ -21,6 +23,20 @@ public class BulletSelection : MonoBehaviour
     public TextMeshProUGUI ExpandButtonText;
 
     public Animator dicePopperParent;
+
+    private void Awake()
+    {
+        // If there is an instance, and it's not me, delete myself.
+
+        if (instance != null && instance != this)
+        {
+            Destroy(this);
+        }
+        else
+        {
+            instance = this;
+        }
+    }
 
     private void Start()
     {

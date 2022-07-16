@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
-[RequireComponent(typeof(CapsuleCollider2D))]
+//[RequireComponent(typeof(CapsuleCollider2D))]
 public class CharacterControllor : MonoBehaviour
 {
 
@@ -11,7 +11,7 @@ public class CharacterControllor : MonoBehaviour
     [Header("Player values")]
     public Camera mainCamera;
     public GameObject shotPos;
-    public GameObject projectile;
+    public GameObject[] projectile;
     private bool alive = true;
     // movement
 
@@ -66,7 +66,7 @@ public class CharacterControllor : MonoBehaviour
             // BANG!
             if (Input.GetMouseButtonDown(0))
             {
-                Instantiate(projectile, shotPos.transform.position, shotPos.transform.rotation);
+                Shoot();
             }
         }
 
@@ -96,6 +96,18 @@ public class CharacterControllor : MonoBehaviour
         {
             rig.velocity = Vector2.zero;
             alive = false;
+        }
+    }
+
+    public void Shoot()
+    {
+        //Instantiate(projectile[0], shotPos.transform.position, shotPos.transform.rotation);
+
+        int value = BulletSelection.instance.DiceValue;
+
+        if (value != 0)
+        {
+            Instantiate(projectile[value - 1], shotPos.transform.position, shotPos.transform.rotation);
         }
     }
 }
