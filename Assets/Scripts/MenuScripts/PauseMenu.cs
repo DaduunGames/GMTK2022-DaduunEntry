@@ -61,21 +61,4 @@ public class PauseMenu : MonoBehaviour
         Application.Quit();
     }
 
-    public void PMOptions(bool PMToOptions)
-    {
-
-        animator.SetBool("PMToOptions", PMToOptions);
-        Debug.Log("You fuck");
-    }
-
-    public void Help(bool ToHelp)
-    {
-
-        animator.SetBool("ToHelp", ToHelp);
-    }
-
-    public void DebugMenu(string text)
-    {
-        print(text);
-    }
 }
