@@ -5,7 +5,16 @@ using UnityEngine;
 public class Bullet : MonoBehaviour
 {
     Rigidbody2D rb;
-    private float time = 0;
+
+    public bool Moves = true;
+    public bool DestroySelfOnHit = true;
+    public bool DoesDamage = true;
+    public bool CanDestroyCrackedWalls = false;
+
+    public GameObject LastingHitEffect;
+
+    private bool HitEnemy = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -15,23 +24,49 @@ public class Bullet : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (time <= 2f)
+        if (Moves)
         {
-            time += Time.deltaTime;
+            rb.velocity = transform.TransformDirection(Vector2.right * 15);
         }
-        else
-        {
-            Destroy(gameObject);
-
-        }
-        rb.velocity = transform.TransformDirection(Vector2.right * 15);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.gameObject.layer == LayerMask.NameToLayer("Terrain"))
+        if (collision.tag != "Bullet" && collision.tag != "Player") {
+            HitEnemy = false;
+            if (DoesDamage)
+            {
+                if (collision.tag == "Enemy")
+                {
+                    HitEnemy = true;
+                    Destroy(collision.gameObject); // destroy the enemy
+                }
+
+                if (collision.GetComponent<DynamicWall>() && CanDestroyCrackedWalls)
+                {
+                    collision.GetComponent<DynamicWall>().DestroyWithViolence();
+                }
+            }
+            
+
+            Hit();
+
+        }
+    }
+
+    public void Hit()
+    {
+        if (LastingHitEffect)
         {
-            Destroy(gameObject);
+            Debug.Log("spawning lasing hit effect");
+            Instantiate(LastingHitEffect, transform.position, Quaternion.identity);
+        }
+
+
+        // this has to happen last
+        if (DestroySelfOnHit)
+        {
+            Destroy(gameObject); // destroy myself regardless of what i hit
         }
     }
 }

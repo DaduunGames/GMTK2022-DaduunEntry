@@ -1,0 +1,1280 @@
+fileFormatVersion: 2
+guid: e6ec1dea946f8fa4fbbc647beaecd72b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7016874879744323630
+    second: Better BasicTilemap_0
+  - first:
+      213: -6961390414743088901
+    second: Better BasicTilemap_1
+  - first:
+      213: -693026389025636398
+    second: Better BasicTilemap_2
+  - first:
+      213: -5842052691644695348
+    second: Better BasicTilemap_3
+  - first:
+      213: 6423801618627947302
+    second: Better BasicTilemap_4
+  - first:
+      213: -679417360178252516
+    second: Better BasicTilemap_5
+  - first:
+      213: -2119552174663598679
+    second: Better BasicTilemap_6
+  - first:
+      213: -1450783438285555116
+    second: Better BasicTilemap_7
+  - first:
+      213: 8311354642349699023
+    second: Better BasicTilemap_8
+  - first:
+      213: -2005533726906231704
+    second: Better BasicTilemap_9
+  - first:
+      213: -1953592741057929561
+    second: Better BasicTilemap_10
+  - first:
+      213: -5371431192765292950
+    second: Better BasicTilemap_11
+  - first:
+      213: -505849344456709446
+    second: Better BasicTilemap_12
+  - first:
+      213: 4131877804747189608
+    second: Better BasicTilemap_13
+  - first:
+      213: 3551773162602046137
+    second: Better BasicTilemap_14
+  - first:
+      213: -6777726480717638522
+    second: Better BasicTilemap_15
+  - first:
+      213: 7350938995472057202
+    second: Better BasicTilemap_16
+  - first:
+      213: -8839390512314387410
+    second: Better BasicTilemap_17
+  - first:
+      213: 857605931638702430
+    second: Better BasicTilemap_18
+  - first:
+      213: -7119685176936888495
+    second: Better BasicTilemap_19
+  - first:
+      213: 4327596184327331354
+    second: Better BasicTilemap_20
+  - first:
+      213: 2403282712052133397
+    second: Better BasicTilemap_21
+  - first:
+      213: -3667430907360608165
+    second: Better BasicTilemap_22
+  - first:
+      213: -5610636179316829488
+    second: Better BasicTilemap_23
+  - first:
+      213: 5467500388406010860
+    second: Better BasicTilemap_24
+  - first:
+      213: 6768923840069817073
+    second: Better BasicTilemap_25
+  - first:
+      213: -5469517448112411375
+    second: Better BasicTilemap_26
+  - first:
+      213: -5719522008183408294
+    second: Better BasicTilemap_27
+  - first:
+      213: -6147631114999148911
+    second: Better BasicTilemap_28
+  - first:
+      213: -5300753050707089558
+    second: Better BasicTilemap_29
+  - first:
+      213: 8981967798702089891
+    second: Better BasicTilemap_30
+  - first:
+      213: 3312297200483844707
+    second: Better BasicTilemap_31
+  - first:
+      213: 4971696430213136670
+    second: Better BasicTilemap_32
+  - first:
+      213: 7073606206838223582
+    second: Better BasicTilemap_33
+  - first:
+      213: 6809721977966271006
+    second: Better BasicTilemap_34
+  - first:
+      213: -6818583733974454534
+    second: Better BasicTilemap_35
+  - first:
+      213: -4404925368264581127
+    second: Better BasicTilemap_36
+  - first:
+      213: 2875314498850849632
+    second: Better BasicTilemap_37
+  - first:
+      213: 5216345821744406377
+    second: Better BasicTilemap_38
+  - first:
+      213: 6011443084639854744
+    second: Better BasicTilemap_39
+  - first:
+      213: 2563369308994600881
+    second: Better BasicTilemap_40
+  - first:
+      213: 909912293014242130
+    second: Better BasicTilemap_41
+  - first:
+      213: -6809786076816631478
+    second: Better BasicTilemap_42
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Better BasicTilemap_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -64, y: -64}
+        - {x: -64, y: 64}
+        - {x: 64, y: 64}
+        - {x: 64, y: 21}
+        - {x: -21, y: 19}
+        - {x: -24, y: -64}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e20b580b682f06160800000000000000
+      internalID: 7016874879744323630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Better BasicTilemap_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -64, y: 19}
+        - {x: -64, y: 64}
+        - {x: 64, y: 64}
+        - {x: 64, y: 19}
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf0dd620d4c246f90800000000000000
+      internalID: -6961390414743088901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Better BasicTilemap_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -64, y: 20}
+        - {x: -64, y: 64}
+        - {x: 64, y: 64}
+        - {x: 64, y: 21}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dfb726cb20e166f0800000000000000
+      internalID: -693026389025636398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Better BasicTilemap_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 21, y: -64}
+        - {x: 20, y: 20}
+        - {x: -64, y: 20}
+        - {x: -64, y: 64}
+        - {x: 64, y: 64}
+        - {x: 64, y: -64}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccc376b870cdceea0800000000000000
+      internalID: -5842052691644695348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Better BasicTilemap_4
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62be5e1998de52950800000000000000
+      internalID: 6423801618627947302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Better BasicTilemap_5
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c157758b2893296f0800000000000000
+      internalID: -679417360178252516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Better BasicTilemap_6
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9adf44ae686d592e0800000000000000
+      internalID: -2119552174663598679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Better BasicTilemap_7
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45a38f24628cddbe0800000000000000
+      internalID: -1450783438285555116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Better BasicTilemap_8
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -20, y: -7}
+        - {x: -22, y: -64}
+        - {x: -64, y: -64}
+        - {x: -64, y: 64}
+        - {x: 64, y: 64}
+        - {x: 64, y: -7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcf2c83030dd75370800000000000000
+      internalID: 8311354642349699023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Better BasicTilemap_9
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -64, y: -6}
+        - {x: -64, y: 64}
+        - {x: 64, y: 64}
+        - {x: 64, y: -5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86450be73b9ea24e0800000000000000
+      internalID: -2005533726906231704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Better BasicTilemap_10
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 21, y: -64}
+        - {x: 17, y: -8}
+        - {x: -64, y: -6}
+        - {x: -64, y: 64}
+        - {x: 64, y: 64}
+        - {x: 64, y: -64}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aed579a0c173e4e0800000000000000
+      internalID: -1953592741057929561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Better BasicTilemap_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -64, y: -64}
+        - {x: -64, y: 64}
+        - {x: -23, y: 64}
+        - {x: -21, y: -64}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6e95cb0ac7d475b0800000000000000
+      internalID: -5371431192765292950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Better BasicTilemap_12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 20, y: -64}
+        - {x: 22, y: -32}
+        - {x: 64, y: -25}
+        - {x: 64, y: -64}
+      tessellationDetail: 0
+      bones: []
+      spriteID: aba2bc983bcdaf8f0800000000000000
+      internalID: -505849344456709446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Better BasicTilemap_13
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -64, y: -64}
+        - {x: -64, y: -25}
+        - {x: -28, y: -29}
+        - {x: -22, y: -64}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86de647c8f0675930800000000000000
+      internalID: 4131877804747189608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Better BasicTilemap_14
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 22, y: -64}
+        - {x: 21, y: 64}
+        - {x: 64, y: 64}
+        - {x: 64, y: -64}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b229af8fde6a4130800000000000000
+      internalID: 3551773162602046137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Better BasicTilemap_15
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -64, y: -35}
+        - {x: -64, y: 64}
+        - {x: 64, y: 64}
+        - {x: 64, y: -34}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 684111cfcada0f1a0800000000000000
+      internalID: -6777726480717638522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Better BasicTilemap_16
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -64, y: -34}
+        - {x: -64, y: 64}
+        - {x: 64, y: 64}
+        - {x: 64, y: -34}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 273cda6c118c30660800000000000000
+      internalID: 7350938995472057202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Better BasicTilemap_17
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -64, y: -34}
+        - {x: -64, y: 64}
+        - {x: 64, y: 64}
+        - {x: 64, y: -34}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e24fa82892d245580800000000000000
+      internalID: -8839390512314387410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Better BasicTilemap_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -64, y: -64}
+        - {x: -64, y: 64}
+        - {x: -21, y: 64}
+        - {x: -22, y: -64}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e51c7901d04d6eb00800000000000000
+      internalID: 857605931638702430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Better BasicTilemap_19
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 24, y: 26}
+        - {x: 20, y: 64}
+        - {x: 64, y: 64}
+        - {x: 64, y: 21}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1570014ad0cc13d90800000000000000
+      internalID: -7119685176936888495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Better BasicTilemap_20
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -64, y: 21}
+        - {x: -64, y: 64}
+        - {x: -21, y: 64}
+        - {x: -24, y: 27}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1e9a221dc5be0c30800000000000000
+      internalID: 4327596184327331354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Better BasicTilemap_21
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 22, y: -64}
+        - {x: 22, y: 64}
+        - {x: 64, y: 64}
+        - {x: 64, y: -64}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51e64bab4ec2a5120800000000000000
+      internalID: 2403282712052133397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Better BasicTilemap_22
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b508b78450baa1dc0800000000000000
+      internalID: -3667430907360608165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Better BasicTilemap_23
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 21, y: -64}
+        - {x: 21, y: 64}
+        - {x: 64, y: 64}
+        - {x: 64, y: -64}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d29ddf0f140322b0800000000000000
+      internalID: -5610636179316829488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Better BasicTilemap_24
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce3204c92a670eb40800000000000000
+      internalID: 5467500388406010860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Better BasicTilemap_25
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f2d8078e5c00fd50800000000000000
+      internalID: 6768923840069817073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Better BasicTilemap_26
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d65741cde5814b0800000000000000
+      internalID: -5469517448112411375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Better BasicTilemap_27
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -64, y: -64}
+        - {x: -64, y: 64}
+        - {x: -22, y: 64}
+        - {x: -22, y: -64}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a59f231790d20a0b0800000000000000
+      internalID: -5719522008183408294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Better BasicTilemap_28
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19e465c821a3faaa0800000000000000
+      internalID: -6147631114999148911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Better BasicTilemap_29
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a67298a5f21ff66b0800000000000000
+      internalID: -5300753050707089558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Better BasicTilemap_30
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a6a2a9df1c56ac70800000000000000
+      internalID: 8981967798702089891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Better BasicTilemap_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -64, y: -64}
+        - {x: -64, y: 64}
+        - {x: -23, y: 64}
+        - {x: -21, y: -27}
+        - {x: 64, y: -28}
+        - {x: 64, y: -64}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3624c5921c4a7fd20800000000000000
+      internalID: 3312297200483844707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Better BasicTilemap_32
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -64, y: -64}
+        - {x: -64, y: -26}
+        - {x: 64, y: -28}
+        - {x: 64, y: -64}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e118ee5ef830ff440800000000000000
+      internalID: 4971696430213136670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Better BasicTilemap_33
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -64, y: -64}
+        - {x: -64, y: -25}
+        - {x: 64, y: -26}
+        - {x: 64, y: -64}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed237971e5f7a2260800000000000000
+      internalID: 7073606206838223582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Better BasicTilemap_34
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -64, y: -64}
+        - {x: -64, y: -26}
+        - {x: 22, y: -25}
+        - {x: 22, y: 64}
+        - {x: 64, y: 64}
+        - {x: 64, y: -64}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1a99db3f0ef08e50800000000000000
+      internalID: 6809721977966271006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Better BasicTilemap_35
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 21, y: -35}
+        - {x: 22, y: 64}
+        - {x: 64, y: 64}
+        - {x: 64, y: -36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: afe223968368f51a0800000000000000
+      internalID: -6818583733974454534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Better BasicTilemap_36
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -64, y: -35}
+        - {x: -64, y: 64}
+        - {x: 64, y: 64}
+        - {x: 64, y: -36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ff9b7247bf8ed2c0800000000000000
+      internalID: -4404925368264581127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Better BasicTilemap_37
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -64, y: -35}
+        - {x: -64, y: 64}
+        - {x: 64, y: 64}
+        - {x: 64, y: -38}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06309897d4b27e720800000000000000
+      internalID: 2875314498850849632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Better BasicTilemap_38
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -64, y: -37}
+        - {x: -64, y: 64}
+        - {x: 64, y: 64}
+        - {x: 64, y: -38}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96f1ba233ee246840800000000000000
+      internalID: 5216345821744406377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Better BasicTilemap_39
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -64, y: -39}
+        - {x: -64, y: 64}
+        - {x: -21, y: 64}
+        - {x: -21, y: -37}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 890ef6fa2afec6350800000000000000
+      internalID: 6011443084639854744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Better BasicTilemap_40
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -64, y: -38}
+        - {x: -64, y: 64}
+        - {x: 64, y: 64}
+        - {x: 64, y: -32}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bff2c22ecae29320800000000000000
+      internalID: 2563369308994600881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Better BasicTilemap_41
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -64, y: -32}
+        - {x: -64, y: 64}
+        - {x: 64, y: 64}
+        - {x: 64, y: -35}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25300e9d868a0ac00800000000000000
+      internalID: 909912293014242130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Better BasicTilemap_42
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -64, y: -32}
+        - {x: -64, y: 64}
+        - {x: 64, y: 64}
+        - {x: 64, y: -32}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4991f694a7ce71a0800000000000000
+      internalID: -6809786076816631478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 308a955395075584cad46bf7b081500e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
