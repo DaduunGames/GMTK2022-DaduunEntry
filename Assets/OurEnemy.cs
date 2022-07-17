@@ -44,19 +44,21 @@ public class OurEnemy : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
 
         transform.position = waypoints[wayPointIndex].transform.position;
-        InvokeRepeating("UpdatePath", 0f, .5f);
+        //InvokeRepeating("UpdatePath", 0f, .5f);
+        target = waypoints[wayPointIndex].transform;
         seeker.StartPath(rb.position, target.position, OnPathComplete);
+        
 
         fieldofview.SetFoV(fov);
         fieldofview.SetViewDistance(viewDistance);
     }
-    void UpdatePath()
-    {
-        if (seeker.IsDone())
-        {
-            seeker.StartPath(rb.position, target.position, OnPathComplete);
-        }
-    }
+    //void UpdatePath()
+    //{
+    //    if (seeker.IsDone())
+    //    {
+    //        seeker.StartPath(rb.position, target.position, OnPathComplete);
+    //    }
+    //}
     void OnPathComplete(Path p)
     {
         if (!p.error)
@@ -64,6 +66,8 @@ public class OurEnemy : MonoBehaviour
             path = p;
             currentWaypoint = 0;
         }
+
+        seeker.StartPath(rb.position, target.position, OnPathComplete);
     }
 
     // Update is called once per frame
