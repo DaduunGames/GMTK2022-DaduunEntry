@@ -38,7 +38,8 @@ public class CharacterAimHandler : MonoBehaviour, EnemyHandler.IEnemyTargetable 
 
         // Update Code
         bool isAimDownSights = false;
-        FunctionUpdater.Create(() => {
+        FunctionUpdater.Create(() => 
+        {
             Vector3 targetPosition = UtilsClass.GetMouseWorldPosition();
             Vector3 aimDir = (targetPosition - vObject.GetPosition()).normalized;
             fieldOfView.SetAimDirection(aimDir);
