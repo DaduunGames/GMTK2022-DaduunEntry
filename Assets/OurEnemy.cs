@@ -7,11 +7,11 @@ public class OurEnemy : MonoBehaviour
 {
 
     // enemyvalues
-
+    public float PatrolSpeed = 1.5f;
+    public float ChaseSpeed = 3f;
 
     [SerializeField] private float fov = 90f;
     [SerializeField] private float StartChasingDist = 4f;
-    [SerializeField] private float StopChasingDist = 10f;
     [SerializeField] private FieldOfView fieldofview;
     Vector3 LookDir;
     public float waitTimer = 3f;
@@ -40,11 +40,18 @@ public class OurEnemy : MonoBehaviour
     {
         anim = GetComponent<Animator>();
         AIPath = GetComponent<AIPath>();
+        if (waypoints.Length != 0)
+        {
+            AIPath.destination = waypoints[wayPointIndex].transform.position;
+        }
 
-        AIPath.destination = waypoints[wayPointIndex].transform.position;
-
+        fieldofview.gameObject.SetActive(false);
         fieldofview.SetFoV(fov);
         fieldofview.SetViewDistance(StartChasingDist);
+        fieldofview.transform.parent = null;
+        fieldofview.transform.position = new Vector3(0, 0, -1);
+        fieldofview.transform.rotation = Quaternion.Euler(0, 0, 0);
+        fieldofview.transform.localScale = Vector3.one;
     }
 
    
@@ -55,7 +62,7 @@ public class OurEnemy : MonoBehaviour
         {
             state = State.Chasing;
         }
-        else if (Vector3.Distance(transform.position, player.transform.position) > StopChasingDist)
+        else if (Vector3.Distance(transform.position, player.transform.position) > StartChasingDist + 5)
         {
             state = State.Patrol;
         }
@@ -81,7 +88,9 @@ public class OurEnemy : MonoBehaviour
     {
         anim.SetInteger("Movement", 1);
 
-        if (waypoints == null)
+        AIPath.maxSpeed = PatrolSpeed;
+
+        if (waypoints.Length == 0)
         {
             return;
         }
@@ -104,6 +113,8 @@ public class OurEnemy : MonoBehaviour
 
     void Chase()
     {
+        AIPath.maxSpeed = ChaseSpeed;
+
         AIPath.destination = player.gameObject.transform.position;
         anim.SetInteger("Movement", 2);
     }

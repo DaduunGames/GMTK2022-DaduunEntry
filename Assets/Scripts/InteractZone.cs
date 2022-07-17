@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Pathfinding;
 
 public class InteractZone : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class InteractZone : MonoBehaviour
     public float InteractDistance = 3;
     public bool ShowDistanceGizmo = true;
     public bool DestroyAfterInteract = false;
+    public bool RefreshAStarAfterInteract = true;
     
 
     public GameObject Player;
@@ -30,6 +32,11 @@ public class InteractZone : MonoBehaviour
                 if (DestroyAfterInteract)
                 {
                     Destroy(gameObject);
+                }
+
+                if (RefreshAStarAfterInteract)
+                {
+                    AstarPath.active.Scan();
                 }
             }
         }
