@@ -44,6 +44,8 @@ public class CharacterControllor : MonoBehaviour
 
     [SerializeField] private FieldOfView fieldOfView;
 
+    public AudioSource ShootS;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -149,12 +151,14 @@ public class CharacterControllor : MonoBehaviour
     }
     public void Shoot()
     {
+       
         //Instantiate(projectile[0], shotPos.transform.position, shotPos.transform.rotation);
 
         int value = BulletSelection.instance.DiceValue;
 
         if (value != 0)
         {
+            ShootS.Play();
             Instantiate(projectile[value - 1], shotPos.transform.position, shotPos.transform.rotation);
             anim.SetTrigger("Shoot");
         }

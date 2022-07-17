@@ -21,6 +21,7 @@ public class DicePopper : MonoBehaviour
     public GameObject DiceFloaterPrefab;
     public Transform MainCanvas;
 
+    public AudioSource SOURCE;
     private void Start()
     {
         anim = GetComponent<Animator>();
@@ -52,6 +53,8 @@ public class DicePopper : MonoBehaviour
 
     public void StartPop()
     {
+        SOURCE.Play();
+
         IsPopping = true;
         if (anim.GetCurrentAnimatorStateInfo(0).IsName("PressDown"))
         {
