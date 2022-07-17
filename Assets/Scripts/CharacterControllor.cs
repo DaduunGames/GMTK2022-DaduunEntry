@@ -32,6 +32,8 @@ public class CharacterControllor : MonoBehaviour
     private Transform t;
     private Transform l;
 
+    private Animator anim;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -39,6 +41,7 @@ public class CharacterControllor : MonoBehaviour
         t = transform;
         rig = gameObject.GetComponent<Rigidbody2D>();
         col = GetComponent<CapsuleCollider2D>();
+        anim = GetComponent<Animator>();
 
         if (mainCamera)
         {
@@ -89,6 +92,15 @@ public class CharacterControllor : MonoBehaviour
             vertical *= moveLimiter;
         }
         rig.velocity = new Vector2(horizontal * maxSpeed, vertical * maxSpeed);
+
+        if(rig.velocity.magnitude >= 0.1)
+        {
+            anim.SetBool("IsWalking", true);
+        }
+        else
+        {
+            anim.SetBool("IsWalking", false);
+        }
     }
     private void OnTriggerEnter2D(Collider2D col)
     {
@@ -108,6 +120,7 @@ public class CharacterControllor : MonoBehaviour
         if (value != 0)
         {
             Instantiate(projectile[value - 1], shotPos.transform.position, shotPos.transform.rotation);
+            anim.SetTrigger("Shoot");
         }
 
         BulletSelection.instance.Shotbullet();

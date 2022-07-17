@@ -113,7 +113,10 @@ SpriteAtlas:
   - {fileID: -1953592741057929561, guid: e6ec1dea946f8fa4fbbc647beaecd72b, type: 3}
   - {fileID: 4131877804747189608, guid: e6ec1dea946f8fa4fbbc647beaecd72b, type: 3}
   - {fileID: -505849344456709446, guid: e6ec1dea946f8fa4fbbc647beaecd72b, type: 3}
+  - {fileID: -4915914241244303498, guid: e6ec1dea946f8fa4fbbc647beaecd72b, type: 3}
+  - {fileID: -8718283807646808767, guid: e6ec1dea946f8fa4fbbc647beaecd72b, type: 3}
   - {fileID: -6809786076816631478, guid: e6ec1dea946f8fa4fbbc647beaecd72b, type: 3}
+  - {fileID: 8819585283472400450, guid: e6ec1dea946f8fa4fbbc647beaecd72b, type: 3}
   - {fileID: 2563369308994600881, guid: e6ec1dea946f8fa4fbbc647beaecd72b, type: 3}
   - {fileID: 909912293014242130, guid: e6ec1dea946f8fa4fbbc647beaecd72b, type: 3}
   - {fileID: 8311354642349699023, guid: e6ec1dea946f8fa4fbbc647beaecd72b, type: 3}
@@ -202,7 +205,10 @@ SpriteAtlas:
   - Better BasicTilemap_10
   - Better BasicTilemap_13
   - Better BasicTilemap_12
+  - Better BasicTilemap_44
+  - Better BasicTilemap_45
   - Better BasicTilemap_42
+  - Better BasicTilemap_43
   - Better BasicTilemap_40
   - Better BasicTilemap_41
   - Better BasicTilemap_8

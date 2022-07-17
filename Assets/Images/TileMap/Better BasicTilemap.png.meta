@@ -131,6 +131,21 @@ TextureImporter:
   - first:
       213: -6809786076816631478
     second: Better BasicTilemap_42
+  - first:
+      213: 8819585283472400450
+    second: Better BasicTilemap_43
+  - first:
+      213: -4915914241244303498
+    second: Better BasicTilemap_44
+  - first:
+      213: -8718283807646808767
+    second: Better BasicTilemap_45
+  - first:
+      213: -5668201197761103483
+    second: Better BasicTilemap_46
+  - first:
+      213: -2180753162785315604
+    second: Better BasicTilemap_47
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -224,7 +239,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 384
+        y: 512
         width: 128
         height: 128
       alignment: 0
@@ -251,7 +266,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 128
-        y: 384
+        y: 512
         width: 128
         height: 128
       alignment: 0
@@ -276,7 +291,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 256
-        y: 384
+        y: 512
         width: 128
         height: 128
       alignment: 0
@@ -301,7 +316,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 384
-        y: 384
+        y: 512
         width: 128
         height: 128
       alignment: 0
@@ -328,7 +343,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 640
-        y: 384
+        y: 512
         width: 128
         height: 128
       alignment: 0
@@ -349,7 +364,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1024
-        y: 384
+        y: 512
         width: 128
         height: 128
       alignment: 0
@@ -370,7 +385,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1152
-        y: 384
+        y: 512
         width: 128
         height: 128
       alignment: 0
@@ -391,7 +406,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1280
-        y: 384
+        y: 512
         width: 128
         height: 128
       alignment: 0
@@ -412,7 +427,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1536
-        y: 384
+        y: 512
         width: 128
         height: 128
       alignment: 0
@@ -439,7 +454,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1664
-        y: 384
+        y: 512
         width: 128
         height: 128
       alignment: 0
@@ -464,7 +479,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1792
-        y: 384
+        y: 512
         width: 128
         height: 128
       alignment: 0
@@ -491,7 +506,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 256
+        y: 384
         width: 128
         height: 128
       alignment: 0
@@ -516,7 +531,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 128
-        y: 256
+        y: 384
         width: 128
         height: 128
       alignment: 0
@@ -541,7 +556,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 256
-        y: 256
+        y: 384
         width: 128
         height: 128
       alignment: 0
@@ -566,7 +581,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 384
-        y: 256
+        y: 384
         width: 128
         height: 128
       alignment: 0
@@ -591,7 +606,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1024
-        y: 256
+        y: 384
         width: 128
         height: 128
       alignment: 0
@@ -616,7 +631,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1152
-        y: 256
+        y: 384
         width: 128
         height: 128
       alignment: 0
@@ -641,7 +656,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1280
-        y: 256
+        y: 384
         width: 128
         height: 128
       alignment: 0
@@ -666,7 +681,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 128
+        y: 256
         width: 128
         height: 128
       alignment: 0
@@ -677,7 +692,7 @@ TextureImporter:
       - - {x: -64, y: -64}
         - {x: -64, y: 64}
         - {x: -21, y: 64}
-        - {x: -22, y: -64}
+        - {x: -24, y: -64}
       tessellationDetail: 0
       bones: []
       spriteID: e51c7901d04d6eb00800000000000000
@@ -691,7 +706,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 128
-        y: 128
+        y: 256
         width: 128
         height: 128
       alignment: 0
@@ -699,10 +714,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
-      - - {x: 24, y: 26}
-        - {x: 20, y: 64}
+      - - {x: 24, y: 20}
+        - {x: 22, y: 64}
         - {x: 64, y: 64}
-        - {x: 64, y: 21}
+        - {x: 64, y: 20}
       tessellationDetail: 0
       bones: []
       spriteID: 1570014ad0cc13d90800000000000000
@@ -716,7 +731,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 256
-        y: 128
+        y: 256
         width: 128
         height: 128
       alignment: 0
@@ -726,8 +741,8 @@ TextureImporter:
       physicsShape:
       - - {x: -64, y: 21}
         - {x: -64, y: 64}
-        - {x: -21, y: 64}
-        - {x: -24, y: 27}
+        - {x: -23, y: 64}
+        - {x: -22, y: 22}
       tessellationDetail: 0
       bones: []
       spriteID: a1e9a221dc5be0c30800000000000000
@@ -741,7 +756,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 384
-        y: 128
+        y: 256
         width: 128
         height: 128
       alignment: 0
@@ -750,7 +765,7 @@ TextureImporter:
       outline: []
       physicsShape:
       - - {x: 22, y: -64}
-        - {x: 22, y: 64}
+        - {x: 24, y: 64}
         - {x: 64, y: 64}
         - {x: 64, y: -64}
       tessellationDetail: 0
@@ -766,7 +781,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 640
-        y: 128
+        y: 256
         width: 128
         height: 128
       alignment: 0
@@ -787,7 +802,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 896
-        y: 128
+        y: 256
         width: 128
         height: 128
       alignment: 0
@@ -795,7 +810,7 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
-      - - {x: 21, y: -64}
+      - - {x: 22, y: -64}
         - {x: 21, y: 64}
         - {x: 64, y: 64}
         - {x: 64, y: -64}
@@ -812,7 +827,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1024
-        y: 128
+        y: 256
         width: 128
         height: 128
       alignment: 0
@@ -833,7 +848,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1152
-        y: 128
+        y: 256
         width: 128
         height: 128
       alignment: 0
@@ -854,7 +869,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1280
-        y: 128
+        y: 256
         width: 128
         height: 128
       alignment: 0
@@ -875,7 +890,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1408
-        y: 128
+        y: 256
         width: 128
         height: 128
       alignment: 0
@@ -885,7 +900,7 @@ TextureImporter:
       physicsShape:
       - - {x: -64, y: -64}
         - {x: -64, y: 64}
-        - {x: -22, y: 64}
+        - {x: -23, y: 64}
         - {x: -22, y: -64}
       tessellationDetail: 0
       bones: []
@@ -900,7 +915,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1536
-        y: 128
+        y: 256
         width: 128
         height: 128
       alignment: 0
@@ -921,7 +936,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1664
-        y: 128
+        y: 256
         width: 128
         height: 128
       alignment: 0
@@ -942,7 +957,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1792
-        y: 128
+        y: 256
         width: 128
         height: 128
       alignment: 0
@@ -963,7 +978,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
+        y: 128
         width: 128
         height: 128
       alignment: 0
@@ -971,12 +986,12 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
-      - - {x: -64, y: -64}
-        - {x: -64, y: 64}
-        - {x: -23, y: 64}
-        - {x: -21, y: -27}
-        - {x: 64, y: -28}
+      - - {x: 64, y: -26}
         - {x: 64, y: -64}
+        - {x: -64, y: -64}
+        - {x: -64, y: 64}
+        - {x: -22, y: 64}
+        - {x: -22, y: -28}
       tessellationDetail: 0
       bones: []
       spriteID: 3624c5921c4a7fd20800000000000000
@@ -990,7 +1005,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 128
-        y: 0
+        y: 128
         width: 128
         height: 128
       alignment: 0
@@ -999,8 +1014,8 @@ TextureImporter:
       outline: []
       physicsShape:
       - - {x: -64, y: -64}
-        - {x: -64, y: -26}
-        - {x: 64, y: -28}
+        - {x: -64, y: -27}
+        - {x: 64, y: -25}
         - {x: 64, y: -64}
       tessellationDetail: 0
       bones: []
@@ -1015,7 +1030,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 256
-        y: 0
+        y: 128
         width: 128
         height: 128
       alignment: 0
@@ -1024,8 +1039,8 @@ TextureImporter:
       outline: []
       physicsShape:
       - - {x: -64, y: -64}
-        - {x: -64, y: -25}
-        - {x: 64, y: -26}
+        - {x: -64, y: -26}
+        - {x: 64, y: -25}
         - {x: 64, y: -64}
       tessellationDetail: 0
       bones: []
@@ -1040,7 +1055,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 384
-        y: 0
+        y: 128
         width: 128
         height: 128
       alignment: 0
@@ -1048,12 +1063,12 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
-      - - {x: -64, y: -64}
-        - {x: -64, y: -26}
-        - {x: 22, y: -25}
-        - {x: 22, y: 64}
+      - - {x: -64, y: -26}
+        - {x: 21, y: -24}
+        - {x: 24, y: 64}
         - {x: 64, y: 64}
         - {x: 64, y: -64}
+        - {x: -64, y: -64}
       tessellationDetail: 0
       bones: []
       spriteID: e1a99db3f0ef08e50800000000000000
@@ -1067,7 +1082,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 896
-        y: 0
+        y: 128
         width: 128
         height: 128
       alignment: 0
@@ -1075,10 +1090,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
-      - - {x: 21, y: -35}
-        - {x: 22, y: 64}
+      - - {x: 22, y: 64}
         - {x: 64, y: 64}
-        - {x: 64, y: -36}
+        - {x: 64, y: -35}
+        - {x: 22, y: -32}
       tessellationDetail: 0
       bones: []
       spriteID: afe223968368f51a0800000000000000
@@ -1092,7 +1107,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1024
-        y: 0
+        y: 128
         width: 128
         height: 128
       alignment: 0
@@ -1100,10 +1115,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
-      - - {x: -64, y: -35}
+      - - {x: -64, y: -38}
         - {x: -64, y: 64}
         - {x: 64, y: 64}
-        - {x: 64, y: -36}
+        - {x: 64, y: -35}
       tessellationDetail: 0
       bones: []
       spriteID: 9ff9b7247bf8ed2c0800000000000000
@@ -1117,7 +1132,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1152
-        y: 0
+        y: 128
         width: 128
         height: 128
       alignment: 0
@@ -1125,10 +1140,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
-      - - {x: -64, y: -35}
+      - - {x: -64, y: -34}
         - {x: -64, y: 64}
         - {x: 64, y: 64}
-        - {x: 64, y: -38}
+        - {x: 64, y: -36}
       tessellationDetail: 0
       bones: []
       spriteID: 06309897d4b27e720800000000000000
@@ -1142,7 +1157,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1280
-        y: 0
+        y: 128
         width: 128
         height: 128
       alignment: 0
@@ -1150,9 +1165,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
-      - - {x: -64, y: -37}
+      - - {x: -64, y: -34}
         - {x: -64, y: 64}
         - {x: 64, y: 64}
+        - {x: 64, y: -0.6212311}
         - {x: 64, y: -38}
       tessellationDetail: 0
       bones: []
@@ -1167,7 +1183,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1408
-        y: 0
+        y: 128
         width: 128
         height: 128
       alignment: 0
@@ -1178,7 +1194,7 @@ TextureImporter:
       - - {x: -64, y: -39}
         - {x: -64, y: 64}
         - {x: -21, y: 64}
-        - {x: -21, y: -37}
+        - {x: -21, y: -36}
       tessellationDetail: 0
       bones: []
       spriteID: 890ef6fa2afec6350800000000000000
@@ -1192,7 +1208,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1536
-        y: 0
+        y: 128
         width: 128
         height: 128
       alignment: 0
@@ -1203,7 +1219,7 @@ TextureImporter:
       - - {x: -64, y: -38}
         - {x: -64, y: 64}
         - {x: 64, y: 64}
-        - {x: 64, y: -32}
+        - {x: 64, y: -36}
       tessellationDetail: 0
       bones: []
       spriteID: 1bff2c22ecae29320800000000000000
@@ -1217,7 +1233,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1664
-        y: 0
+        y: 128
         width: 128
         height: 128
       alignment: 0
@@ -1225,7 +1241,7 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
-      - - {x: -64, y: -32}
+      - - {x: -64, y: -35}
         - {x: -64, y: 64}
         - {x: 64, y: 64}
         - {x: 64, y: -35}
@@ -1242,7 +1258,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1792
-        y: 0
+        y: 128
         width: 128
         height: 128
       alignment: 0
@@ -1250,7 +1266,7 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
-      - - {x: -64, y: -32}
+      - - {x: -64, y: -36}
         - {x: -64, y: 64}
         - {x: 64, y: 64}
         - {x: 64, y: -32}
@@ -1258,6 +1274,69 @@ TextureImporter:
       bones: []
       spriteID: a4991f694a7ce71a0800000000000000
       internalID: -6809786076816631478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Better BasicTilemap_43
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 240a2af4616756a70800000000000000
+      internalID: 8819585283472400450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Better BasicTilemap_44
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67f69501b0a27cbb0800000000000000
+      internalID: -4915914241244303498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Better BasicTilemap_45
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1450c22811f620780800000000000000
+      internalID: -8718283807646808767
       vertices: []
       indices: 
       edges: []
