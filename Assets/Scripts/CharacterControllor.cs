@@ -1,11 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 [RequireComponent(typeof(Rigidbody2D))]
 //[RequireComponent(typeof(CapsuleCollider2D))]
 public class CharacterControllor : MonoBehaviour
 {
+
+    public int CollectableCount = 0;
+    public TextMeshProUGUI CollectableDisplay;
+    public GameObject DeathScreen;
+    public GameObject WinScreen;
+    public GameObject DeathSplat;
 
     // player values
     [Header("Player values")]
@@ -56,8 +64,16 @@ public class CharacterControllor : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        CollectableDisplay.text = $"Find All the Dice: {CollectableCount}/8";
+
         //fieldOfView.SetAimDirection();
         //fieldOfView.SetOrigin(transform.position);
+
+        if(CollectableCount >= 8)
+        {
+            WinScreen.SetActive(true);
+            alive = false;
+        }
 
         if (alive == true)
         {
@@ -117,9 +133,20 @@ public class CharacterControllor : MonoBehaviour
             rig.isKinematic = true;
             alive = false;
             maxSpeed = 0;
+            Instantiate(DeathSplat, transform.position, transform.rotation);
+            Invoke("DisplayDeathScreen", 3);
+        }
+
+        if(col.gameObject.tag == "Collectable"){
+            Destroy(col.gameObject);
+            CollectableCount++;
         }
     }
 
+    public void DisplayDeathScreen()
+    {
+        DeathScreen.SetActive(true);
+    }
     public void Shoot()
     {
         //Instantiate(projectile[0], shotPos.transform.position, shotPos.transform.rotation);

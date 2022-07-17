@@ -5,6 +5,7 @@ using Pathfinding;
 
 public class OurEnemy : MonoBehaviour
 {
+    private float Slowed = 1;
 
     // enemyvalues
     public float PatrolSpeed = 1.5f;
@@ -88,7 +89,7 @@ public class OurEnemy : MonoBehaviour
     {
         anim.SetInteger("Movement", 1);
 
-        AIPath.maxSpeed = PatrolSpeed;
+        AIPath.maxSpeed = PatrolSpeed * Slowed;
 
         if (waypoints.Length == 0)
         {
@@ -113,7 +114,7 @@ public class OurEnemy : MonoBehaviour
 
     void Chase()
     {
-        AIPath.maxSpeed = ChaseSpeed;
+        AIPath.maxSpeed = ChaseSpeed * Slowed;
 
         AIPath.destination = player.gameObject.transform.position;
         anim.SetInteger("Movement", 2);
@@ -129,5 +130,21 @@ public class OurEnemy : MonoBehaviour
     {
         Instantiate(DeathSplat, transform.position, transform.rotation);
         Destroy(gameObject);
+    }
+
+    private void OnTriggerStay2D(Collider2D other)
+    {
+        if(other.tag == "Glue")
+        {
+            Slowed = 0.5f;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if(collision.tag == "Glue")
+        {
+            Slowed = 1;
+        }
     }
 }
