@@ -1,18 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class KeepImageUpright : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public SpriteRenderer sp;
+
     void Start()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        if (transform.rotation.eulerAngles.z > 90 && transform.rotation.eulerAngles.z < 270)
+        {
+            sp.flipY = true;
+        }
+        else
+        {
+            sp.flipY = false;
+        }
     }
 }

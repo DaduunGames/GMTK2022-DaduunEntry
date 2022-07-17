@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5845059328277941020}
   - component: {fileID: 7664124965857614904}
   - component: {fileID: 7427829396229741422}
+  - component: {fileID: 3133490776929003551}
   m_Layer: 7
   m_Name: Bullet_Bam
   m_TagString: Bullet
@@ -88,6 +89,19 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.565
+--- !u!114 &3133490776929003551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2750550934785919315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ce750e6947706945bfade7136ae43ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sp: {fileID: 3416047945534254969}
 --- !u!1 &8167767389569037417
 GameObject:
   m_ObjectHideFlags: 0
@@ -113,7 +127,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8167767389569037417}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.79, y: -1.19, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children: []
   m_Father: {fileID: 7598497688682978052}

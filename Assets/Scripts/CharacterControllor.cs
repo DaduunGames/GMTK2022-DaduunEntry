@@ -57,7 +57,7 @@ public class CharacterControllor : MonoBehaviour
     void Update()
     {
         //fieldOfView.SetAimDirection();
-        fieldOfView.SetOrigin(transform.position);
+        //fieldOfView.SetOrigin(transform.position);
 
         if (alive == true)
         {
