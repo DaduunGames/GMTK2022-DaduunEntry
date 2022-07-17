@@ -50,7 +50,7 @@ MonoBehaviour:
   DestroySelfOnHit: 1
   DoesDamage: 1
   CanDestroyCrackedWalls: 0
-  LastingHitEffect: {fileID: 0}
+  LastingHitEffect: {fileID: 2079704556847386783, guid: 6e07ec5fed0e0ea4db1378777de8d117, type: 3}
 --- !u!50 &914761082092361280
 Rigidbody2D:
   serializedVersion: 4
@@ -138,7 +138,7 @@ MonoBehaviour:
   DestroySelfOnHit: 1
   DoesDamage: 1
   CanDestroyCrackedWalls: 0
-  LastingHitEffect: {fileID: 0}
+  LastingHitEffect: {fileID: 2079704556847386783, guid: 6e07ec5fed0e0ea4db1378777de8d117, type: 3}
 --- !u!50 &5135867663045248221
 Rigidbody2D:
   serializedVersion: 4
@@ -390,7 +390,7 @@ MonoBehaviour:
   DestroySelfOnHit: 1
   DoesDamage: 1
   CanDestroyCrackedWalls: 0
-  LastingHitEffect: {fileID: 0}
+  LastingHitEffect: {fileID: 2079704556847386783, guid: 6e07ec5fed0e0ea4db1378777de8d117, type: 3}
 --- !u!50 &3586610911375168576
 Rigidbody2D:
   serializedVersion: 4

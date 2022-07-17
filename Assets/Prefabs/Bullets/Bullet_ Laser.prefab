@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 8599942003458259564}
   - component: {fileID: 2651730696563272764}
   - component: {fileID: 6831333060185506006}
-  - component: {fileID: 2921655776354550163}
   - component: {fileID: -5266189287691605820}
   - component: {fileID: 1832396948955668762}
+  - component: {fileID: 8424995202282418021}
   m_Layer: 7
   m_Name: Bullet_ Laser
   m_TagString: Bullet
@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 866026848292231409}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.65315396, y: 0.65315396, z: 0.65315396}
+  m_LocalScale: {x: 0.65315396, y: 0.653154, z: 0.653154}
   m_Children:
   - {fileID: 6620807677258448769}
   m_Father: {fileID: 0}
@@ -74,22 +74,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!58 &2921655776354550163
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 866026848292231409}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.565
 --- !u!114 &-5266189287691605820
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -102,7 +86,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcc27540729c13049b5d33d70ab3d817, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Time: 0.2
+  Time: 3
   IgnoreBulletScript: 1
 --- !u!61 &1832396948955668762
 BoxCollider2D:
@@ -130,6 +114,25 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 15.882343, y: 1.125}
   m_EdgeRadius: 0
+--- !u!95 &8424995202282418021
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 866026848292231409}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3da4e487a104da045b7df53ec851af06, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &7592851561774321376
 GameObject:
   m_ObjectHideFlags: 0
@@ -156,7 +159,7 @@ Transform:
   m_GameObject: {fileID: 7592851561774321376}
   m_LocalRotation: {x: -0, y: -0, z: 0.006957069, w: 0.9999758}
   m_LocalPosition: {x: 7.38, y: -0.03, z: 0}
-  m_LocalScale: {x: 2.612843, y: 1.4228354, z: 2.0695786}
+  m_LocalScale: {x: 0.011818418, y: 1.422835, z: 2.069579}
   m_Children: []
   m_Father: {fileID: 8599942003458259564}
   m_RootOrder: 0

@@ -132,8 +132,8 @@ MonoBehaviour:
   Moves: 1
   DestroySelfOnHit: 1
   DoesDamage: 1
-  CanDestroyCrackedWalls: 1
-  LastingHitEffect: {fileID: 0}
+  CanDestroyCrackedWalls: 0
+  LastingHitEffect: {fileID: 5541870881766922973, guid: 04ae2757986eb7945adaed3a56609453, type: 3}
 --- !u!50 &286071175487553497
 Rigidbody2D:
   serializedVersion: 4

@@ -59,7 +59,7 @@ public class Bullet : MonoBehaviour
         if (LastingHitEffect)
         {
             Debug.Log("spawning lasing hit effect");
-            Instantiate(LastingHitEffect, transform.position, Quaternion.identity);
+            Instantiate(LastingHitEffect, transform.position, transform.rotation);
         }
 
 

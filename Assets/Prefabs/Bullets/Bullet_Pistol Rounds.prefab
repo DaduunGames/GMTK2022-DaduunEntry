@@ -133,7 +133,7 @@ MonoBehaviour:
   DestroySelfOnHit: 1
   DoesDamage: 1
   CanDestroyCrackedWalls: 0
-  LastingHitEffect: {fileID: 0}
+  LastingHitEffect: {fileID: 2079704556847386783, guid: 6e07ec5fed0e0ea4db1378777de8d117, type: 3}
 --- !u!50 &3438340135255312931
 Rigidbody2D:
   serializedVersion: 4
