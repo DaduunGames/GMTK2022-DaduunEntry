@@ -34,6 +34,8 @@ public class CharacterControllor : MonoBehaviour
 
     private Animator anim;
 
+    [SerializeField] private FieldOfView fieldOfView;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -47,12 +49,17 @@ public class CharacterControllor : MonoBehaviour
         {
             cameraPos = mainCamera.transform.position;
         }
+
+       
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(alive == true)
+        //fieldOfView.SetAimDirection();
+        fieldOfView.SetOrigin(transform.position);
+
+        if (alive == true)
         {
             horizontal = Input.GetAxisRaw("Horizontal");
             vertical = Input.GetAxisRaw("Vertical");        
