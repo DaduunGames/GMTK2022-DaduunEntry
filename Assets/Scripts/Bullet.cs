@@ -39,7 +39,7 @@ public class Bullet : MonoBehaviour
                 if (collision.tag == "Enemy")
                 {
                     HitEnemy = true;
-                    Destroy(collision.gameObject); // destroy the enemy
+                    collision.GetComponent<OurEnemy>().Kill();
                 }
 
                 if (collision.GetComponent<DynamicWall>() && CanDestroyCrackedWalls)

@@ -8,129 +8,84 @@ public class OurEnemy : MonoBehaviour
 
     // enemyvalues
 
-    public Transform target;
-    float movementSpeed = 200f;
 
     [SerializeField] private float fov = 90f;
-    [SerializeField] private float viewDistance = 50f;
+    [SerializeField] private float StartChasingDist = 4f;
+    [SerializeField] private float StopChasingDist = 10f;
     [SerializeField] private FieldOfView fieldofview;
     Vector3 LookDir;
     public float waitTimer = 3f;
-    
-    // 2dmovement
-    Path path;
-    Seeker seeker;
+
+    private Animator anim;
+
 
     // pathfinding
+    AIPath AIPath;
     [SerializeField] private CharacterControllor player;
-    int currentWaypoint = 0;
-    bool reachEndOfPath = false;
     public GameObject[] waypoints;
     int wayPointIndex = 0;
     public float nextWaypointDistance = 3f;
 
-    Rigidbody2D rb;
+
+    public GameObject DeathSplat;
+
     private enum State
     {
-        Idle,
-        Walk,
-        Chasing,
+        Patrol,
+        Chasing
     }
     private State state;
     // Start is called before the first frame update
     void Start()
     {
-        seeker = GetComponent<Seeker>();
-        rb = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
+        AIPath = GetComponent<AIPath>();
 
-        transform.position = waypoints[wayPointIndex].transform.position;
-        //InvokeRepeating("UpdatePath", 0f, .5f);
-        target = waypoints[wayPointIndex].transform;
-        seeker.StartPath(rb.position, target.position, OnPathComplete);
-        
+        AIPath.destination = waypoints[wayPointIndex].transform.position;
 
         fieldofview.SetFoV(fov);
-        fieldofview.SetViewDistance(viewDistance);
-    }
-    //void UpdatePath()
-    //{
-    //    if (seeker.IsDone())
-    //    {
-    //        seeker.StartPath(rb.position, target.position, OnPathComplete);
-    //    }
-    //}
-    void OnPathComplete(Path p)
-    {
-        if (!p.error)
-        {
-            path = p;
-            currentWaypoint = 0;
-        }
-
-        seeker.StartPath(rb.position, target.position, OnPathComplete);
+        fieldofview.SetViewDistance(StartChasingDist);
     }
 
+   
     // Update is called once per frame
     void Update()
     {
-        
+        if (Vector3.Distance(transform.position, player.transform.position) < StartChasingDist)
+        {
+            state = State.Chasing;
+        }
+        else if (Vector3.Distance(transform.position, player.transform.position) > StopChasingDist)
+        {
+            state = State.Patrol;
+        }
+
+
         switch (state)
         {
             default:
-            case State.Walk:
-                HandleMovement();
+            case State.Patrol:
+                PatrolMovement();
+                break;
+            case State.Chasing:
+                Chase();
                 break;
         }
+
         fieldofview.SetOrigin(transform.position);
         fieldofview.SetAimDirection(LookDir);
 
-        if(path == null)
-        {
-            return;
-        }
-        if (currentWaypoint >= path.vectorPath.Count)
-        {
-            reachEndOfPath = true;
-            return;
-        }
-        else
-        {
-            reachEndOfPath = false;
-        }
-
-        Vector2 direction = ((Vector2)path.vectorPath[currentWaypoint] - rb.position).normalized;
-        Vector2 force = direction * movementSpeed * Time.deltaTime;
-
-        rb.AddForce(force);
-
-        float distance = Vector2.Distance(rb.position, path.vectorPath[wayPointIndex]);
-       
-        for (int i = 0; i < wayPointIndex; i++)
-        {
-            waypoints.GetValue(wayPointIndex);
-        }
-
-        if(distance < nextWaypointDistance)
-        {
-            currentWaypoint++;
-        }
     }
 
-    void HandleMovement()
+    void PatrolMovement()
     {
-        if(waypoints == null)
+        anim.SetInteger("Movement", 1);
+
+        if (waypoints == null)
         {
             return;
         }
-
-        // if player is in the viewpoint
-        if (Vector3.Distance(transform.position, player.transform.position) < viewDistance)
-        {
-            Chase();
-            return;
-        }
-
-        //if(transform.position == waypoints[wayPointIndex].transform.position)
+        
         if (Vector3.Distance(transform.position, waypoints[wayPointIndex].transform.position) < 0.2f)
         {
             wayPointIndex += 1;
@@ -141,27 +96,27 @@ public class OurEnemy : MonoBehaviour
             wayPointIndex = 0;
         }
 
-        target = waypoints[wayPointIndex].transform;
-    }
-
-    void Idle()
-    {
-        
-        if (waitTimer <= 3)
-        {
-            // add animation idle
-        }
-
-        else if (waitTimer <= 0)
-        {
-            waitTimer = 3;
-            return;
-        }
+        AIPath.destination = waypoints[wayPointIndex].transform.position;
         
     }
+
+   
 
     void Chase()
     {
-        target = player.gameObject.transform;
+        AIPath.destination = player.gameObject.transform.position;
+        anim.SetInteger("Movement", 2);
+    }
+
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.DrawWireSphere(transform.position, StartChasingDist);
+    }
+
+    public void Kill()
+    {
+        Instantiate(DeathSplat, transform.position, transform.rotation);
+        Destroy(gameObject);
     }
 }
