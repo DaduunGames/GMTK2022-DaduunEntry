@@ -104,10 +104,12 @@ public class CharacterControllor : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D col)
     {
-        if(col.gameObject.name == "Bullet")
+        if(col.gameObject.tag == "Enemy")
         {
             rig.velocity = Vector2.zero;
+            rig.isKinematic = true;
             alive = false;
+            maxSpeed = 0;
         }
     }
 
